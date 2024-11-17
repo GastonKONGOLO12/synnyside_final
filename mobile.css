@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background: url ("sunnyside-agency-landing-page-main\images\mobile\image-header.jpg");
+    background-size: cover;
+    position: fixed;
+    
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding:5px;
+    
+    
+    
+
+}
+
+.nav button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 8%;
+    margin-left: 35px;
+    top: 270px
+}
+
+
+.heade {
+    width: 100%;
+    height: 100%;
+}
+
+.header a {
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header1 {
+    text-align: center;
+    color: white;
+
+}
+
+.heade1 {
+    position: absolute;
+    top: 400px;
+    padding: 1vh;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.heade1a {
+    position: absolute;
+    top: 475px;
+    margin-left: 40px;
+}
+
+.graphic {
+    position: relative;
+}
+
+.heade2 {
+    position: absolute;
+    top: 125rem;
+    margin-left: 100px;
+}
+
+.heade2a {
+    position: absolute;
+    top: 128rem;
+    margin-left: 60px;
+}
+
+.temoin img {
+    clip-path: circle();
+    margin: 5px;
+}
+
+.temoin1 {
+    text-align: center;
+    color: rgba(86, 100, 112, 0.762);
+}
+
+.temoin {
+    text-align: center;
+}
+
+
+.footer1 {
+    text-align: center;
+    background-color: rgb(161, 224, 204);
+    color: rgb(67, 86, 67);
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    color: rgb(67, 86, 67);
+}
+
+
+.logo {
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.photo {
+    position: relative;
+
+}
+@media(min-width:796px){
+    .nav ul,li,a{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        font-size: 5vh;
+        color: white;
+        line-gap-override: 5vh;
+
+    } 
+
+}
+
